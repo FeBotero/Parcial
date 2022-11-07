@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade Socrates</title>
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="anuncio">
+    <h1>Vestibular UniSocrates 2023</h1>
+    <h2>
+        Diversos cursos a sua espera!
+    </h2>
+
+    <table>
+        <thead class="cabecalho">
+            <th>Cursos</th>
+            <th>Vagas</th>
+        </thead>
+        <tbody id="vagas">
+            
+        </tbody>
+    </table>
+
+    
+    <a href="#abrirmodal" id="inscricao"><button>Increva-se</button></a>
+</div>
+    <div id="abrirmodal"class="modal">
+        <div class="divModal">
+        <a href="#fechar"  title="fechar"class="fechar">x</a>
+        <h1>
+            Seja bem vindo ao seu futuro!
+        </h1>
+    
+        <h2><em>E ai, qual será o seu destino?</em></h2>
+    
+        
+            <form action="" id="CADASTRO">
+                <input type="text" name="NOME" id="NOME" placeholder="Seu nome completo">
+                
+                <select name="CURSO" id="CURSO">
+                    <option value="Default">Selecione seu curso</option>
+                    <option value="MATEMATICA">Matematica</option>
+                    <option value="FISICA">Fisica</option>
+                    <option value="QUIMICA">Quimica</option>
+                    <option value="GEOGRAFIA">Geografia</option>
+                    <option value="HISTORIA">Historia</option>
+                    <option value="ECONOMIA">Economia</option>
+                    <option value="ADS">Analise e Densenvolvimento de Sistemas</option>
+                </select>
+                <input type="text" name="CPF" id="CPF" placeholder="CPF">
+                <input type="text" name="RG" id="RG" placeholder="RG">
+                <input type="text" name="DATANASC" id="DATANASC" placeholder="Data de nascimento: DDMMAAAA">
+                
+                <button type="submit">Enviar</button>
+                
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
